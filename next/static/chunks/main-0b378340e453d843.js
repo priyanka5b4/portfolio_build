@@ -4866,7 +4866,7 @@
           c.pathname.endsWith(".json")
         ) {
           let e = c.pathname
-              .replace(/^\/_next\/data\//, "")
+              .replace(/^\/next\/data\//, "")
               .replace(/\.json$/, "")
               .split("/"),
             r = e[0];
